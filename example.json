@@ -6,13 +6,13 @@
       {
         "id": "station",
         "name": "The station",
-        "osmQuery": "railway=station",
+        "osmQuery": "railway=station"
       },
       {
         "id": "library",
         "name": "The library",
         "osmQuery": "amenity=library",
-        "closeTo": "station",
+        "closeTo": "station"
       }
     ],
     "steps": [
@@ -25,7 +25,7 @@
             "id": "0",
             "text": "Go to the station",
             "placeId": "station",
-            "nextStepId": "1",
+            "nextStepId": "1"
           }
         ],
       },
@@ -33,7 +33,7 @@
         "id": "1",
         "title": "Step 2",
         "text": "You are at the station",
-        "choices": [],
+        "choices": []
       }
     ]
 }
