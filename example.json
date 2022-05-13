@@ -1,0 +1,39 @@
+{
+    "id": "1",
+    "title": "The station",
+    "description": "Just a walk",
+    "places": [
+      {
+        "id": "station",
+        "name": "The station",
+        "osmQuery": "railway=station",
+      },
+      {
+        "id": "library",
+        "name": "The library",
+        "osmQuery": "amenity=library",
+        "closeTo": "station",
+      }
+    ],
+    "steps": [
+      {
+        "id": "0",
+        "title": "Step 1",
+        "text": "You decide to have a walk to the station",
+        "choices": [
+          {
+            "id": "0",
+            "text": "Go to the station",
+            "placeId": "station",
+            "nextStepId": "1",
+          }
+        ],
+      },
+      {
+        "id": "1",
+        "title": "Step 2",
+        "text": "You are at the station",
+        "choices": [],
+      }
+    ]
+}
